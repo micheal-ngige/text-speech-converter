@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;   
+    background: maroon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: #000;
+}
+.hero h1 span{
+    color: #000;
+
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+select{
+    flex: 1px;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(icons8-dropdown-30.png);/*icon from icons8*/
+    background-repeat: no-repeat;/*to make it one icon */
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);/*move it to th right side and have 20px from margin */
+    background-position-y: 20px;
+}
